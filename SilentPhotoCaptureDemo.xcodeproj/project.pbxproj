@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E97488B1930C96900AA31A5 /* photoShutterSilence.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7E97488A1930C96900AA31A5 /* photoShutterSilence.caf */; };
+		7E97488D1930CA7B00AA31A5 /* photoShutterRing.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7E97488C1930CA7B00AA31A5 /* photoShutterRing.caf */; };
+		7EDF7779193078DC00BD0C61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDF7778193078DC00BD0C61 /* Foundation.framework */; };
+		7EDF777B193078DC00BD0C61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDF777A193078DC00BD0C61 /* CoreGraphics.framework */; };
+		7EDF777D193078DC00BD0C61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDF777C193078DC00BD0C61 /* UIKit.framework */; };
+		7EDF7783193078DC00BD0C61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EDF7781193078DC00BD0C61 /* InfoPlist.strings */; };
+		7EDF7785193078DC00BD0C61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7784193078DC00BD0C61 /* main.m */; };
+		7EDF7789193078DC00BD0C61 /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF7788193078DC00BD0C61 /* MMAppDelegate.m */; };
+		7EDF778C193078DC00BD0C61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDF778A193078DC00BD0C61 /* Main.storyboard */; };
+		7EDF778F193078DC00BD0C61 /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF778E193078DC00BD0C61 /* MMViewController.m */; };
+		7EDF7791193078DC00BD0C61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDF7790193078DC00BD0C61 /* Images.xcassets */; };
+		7EDF7798193078DC00BD0C61 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDF7797193078DC00BD0C61 /* XCTest.framework */; };
+		7EDF7799193078DC00BD0C61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDF7778193078DC00BD0C61 /* Foundation.framework */; };
+		7EDF779A193078DC00BD0C61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDF777C193078DC00BD0C61 /* UIKit.framework */; };
+		7EDF77A2193078DC00BD0C61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EDF77A0193078DC00BD0C61 /* InfoPlist.strings */; };
+		7EDF77A4193078DD00BD0C61 /* SilentPhotoCaptureDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF77A3193078DD00BD0C61 /* SilentPhotoCaptureDemoTests.m */; };
+		7EDF77AE19307A3700BD0C61 /* photoShutterAntiSound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7EDF77AD19307A3700BD0C61 /* photoShutterAntiSound.caf */; };
+		7EDF77B019307A5B00BD0C61 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDF77AF19307A5B00BD0C61 /* AVFoundation.framework */; };
+		7EDF77B219307CD600BD0C61 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDF77B119307CD600BD0C61 /* AssetsLibrary.framework */; };
+		7EDF77B419307D4500BD0C61 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDF77B319307D4500BD0C61 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EDF779B193078DC00BD0C61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EDF776D193078DC00BD0C61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EDF7774193078DC00BD0C61;
+			remoteInfo = SilentPhotoCaptureDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E97488A1930C96900AA31A5 /* photoShutterSilence.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = photoShutterSilence.caf; sourceTree = "<group>"; };
+		7E97488C1930CA7B00AA31A5 /* photoShutterRing.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = photoShutterRing.caf; sourceTree = "<group>"; };
+		7EDF7775193078DC00BD0C61 /* SilentPhotoCaptureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilentPhotoCaptureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EDF7778193078DC00BD0C61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7EDF777A193078DC00BD0C61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7EDF777C193078DC00BD0C61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7EDF7780193078DC00BD0C61 /* SilentPhotoCaptureDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SilentPhotoCaptureDemo-Info.plist"; sourceTree = "<group>"; };
+		7EDF7782193078DC00BD0C61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7EDF7784193078DC00BD0C61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EDF7786193078DC00BD0C61 /* SilentPhotoCaptureDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SilentPhotoCaptureDemo-Prefix.pch"; sourceTree = "<group>"; };
+		7EDF7787193078DC00BD0C61 /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
+		7EDF7788193078DC00BD0C61 /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
+		7EDF778B193078DC00BD0C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EDF778D193078DC00BD0C61 /* MMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMViewController.h; sourceTree = "<group>"; };
+		7EDF778E193078DC00BD0C61 /* MMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
+		7EDF7790193078DC00BD0C61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7EDF7796193078DC00BD0C61 /* SilentPhotoCaptureDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilentPhotoCaptureDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EDF7797193078DC00BD0C61 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7EDF779F193078DC00BD0C61 /* SilentPhotoCaptureDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SilentPhotoCaptureDemoTests-Info.plist"; sourceTree = "<group>"; };
+		7EDF77A1193078DC00BD0C61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7EDF77A3193078DD00BD0C61 /* SilentPhotoCaptureDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SilentPhotoCaptureDemoTests.m; sourceTree = "<group>"; };
+		7EDF77AD19307A3700BD0C61 /* photoShutterAntiSound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = photoShutterAntiSound.caf; sourceTree = "<group>"; };
+		7EDF77AF19307A5B00BD0C61 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7EDF77B119307CD600BD0C61 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		7EDF77B319307D4500BD0C61 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EDF7772193078DC00BD0C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDF77B019307A5B00BD0C61 /* AVFoundation.framework in Frameworks */,
+				7EDF77B419307D4500BD0C61 /* AudioToolbox.framework in Frameworks */,
+				7EDF77B219307CD600BD0C61 /* AssetsLibrary.framework in Frameworks */,
+				7EDF777B193078DC00BD0C61 /* CoreGraphics.framework in Frameworks */,
+				7EDF777D193078DC00BD0C61 /* UIKit.framework in Frameworks */,
+				7EDF7779193078DC00BD0C61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDF7793193078DC00BD0C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDF7798193078DC00BD0C61 /* XCTest.framework in Frameworks */,
+				7EDF779A193078DC00BD0C61 /* UIKit.framework in Frameworks */,
+				7EDF7799193078DC00BD0C61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EDF776C193078DC00BD0C61 = {
+			isa = PBXGroup;
+			children = (
+				7EDF777E193078DC00BD0C61 /* SilentPhotoCaptureDemo */,
+				7EDF779D193078DC00BD0C61 /* SilentPhotoCaptureDemoTests */,
+				7EDF7777193078DC00BD0C61 /* Frameworks */,
+				7EDF7776193078DC00BD0C61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EDF7776193078DC00BD0C61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EDF7775193078DC00BD0C61 /* SilentPhotoCaptureDemo.app */,
+				7EDF7796193078DC00BD0C61 /* SilentPhotoCaptureDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EDF7777193078DC00BD0C61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EDF77B319307D4500BD0C61 /* AudioToolbox.framework */,
+				7EDF77B119307CD600BD0C61 /* AssetsLibrary.framework */,
+				7EDF77AF19307A5B00BD0C61 /* AVFoundation.framework */,
+				7EDF7778193078DC00BD0C61 /* Foundation.framework */,
+				7EDF777A193078DC00BD0C61 /* CoreGraphics.framework */,
+				7EDF777C193078DC00BD0C61 /* UIKit.framework */,
+				7EDF7797193078DC00BD0C61 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EDF777E193078DC00BD0C61 /* SilentPhotoCaptureDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7EDF7787193078DC00BD0C61 /* MMAppDelegate.h */,
+				7EDF7788193078DC00BD0C61 /* MMAppDelegate.m */,
+				7EDF778A193078DC00BD0C61 /* Main.storyboard */,
+				7EDF778D193078DC00BD0C61 /* MMViewController.h */,
+				7EDF778E193078DC00BD0C61 /* MMViewController.m */,
+				7EDF7790193078DC00BD0C61 /* Images.xcassets */,
+				7EDF777F193078DC00BD0C61 /* Supporting Files */,
+			);
+			path = SilentPhotoCaptureDemo;
+			sourceTree = "<group>";
+		};
+		7EDF777F193078DC00BD0C61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E97488C1930CA7B00AA31A5 /* photoShutterRing.caf */,
+				7E97488A1930C96900AA31A5 /* photoShutterSilence.caf */,
+				7EDF77AD19307A3700BD0C61 /* photoShutterAntiSound.caf */,
+				7EDF7780193078DC00BD0C61 /* SilentPhotoCaptureDemo-Info.plist */,
+				7EDF7781193078DC00BD0C61 /* InfoPlist.strings */,
+				7EDF7784193078DC00BD0C61 /* main.m */,
+				7EDF7786193078DC00BD0C61 /* SilentPhotoCaptureDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EDF779D193078DC00BD0C61 /* SilentPhotoCaptureDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EDF77A3193078DD00BD0C61 /* SilentPhotoCaptureDemoTests.m */,
+				7EDF779E193078DC00BD0C61 /* Supporting Files */,
+			);
+			path = SilentPhotoCaptureDemoTests;
+			sourceTree = "<group>";
+		};
+		7EDF779E193078DC00BD0C61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EDF779F193078DC00BD0C61 /* SilentPhotoCaptureDemoTests-Info.plist */,
+				7EDF77A0193078DC00BD0C61 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EDF7774193078DC00BD0C61 /* SilentPhotoCaptureDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EDF77A7193078DD00BD0C61 /* Build configuration list for PBXNativeTarget "SilentPhotoCaptureDemo" */;
+			buildPhases = (
+				7EDF7771193078DC00BD0C61 /* Sources */,
+				7EDF7772193078DC00BD0C61 /* Frameworks */,
+				7EDF7773193078DC00BD0C61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SilentPhotoCaptureDemo;
+			productName = SilentPhotoCaptureDemo;
+			productReference = 7EDF7775193078DC00BD0C61 /* SilentPhotoCaptureDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EDF7795193078DC00BD0C61 /* SilentPhotoCaptureDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EDF77AA193078DD00BD0C61 /* Build configuration list for PBXNativeTarget "SilentPhotoCaptureDemoTests" */;
+			buildPhases = (
+				7EDF7792193078DC00BD0C61 /* Sources */,
+				7EDF7793193078DC00BD0C61 /* Frameworks */,
+				7EDF7794193078DC00BD0C61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EDF779C193078DC00BD0C61 /* PBXTargetDependency */,
+			);
+			name = SilentPhotoCaptureDemoTests;
+			productName = SilentPhotoCaptureDemoTests;
+			productReference = 7EDF7796193078DC00BD0C61 /* SilentPhotoCaptureDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EDF776D193078DC00BD0C61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mocava Mobile";
+				TargetAttributes = {
+					7EDF7774193078DC00BD0C61 = {
+						DevelopmentTeam = 69M25PDQUJ;
+					};
+					7EDF7795193078DC00BD0C61 = {
+						TestTargetID = 7EDF7774193078DC00BD0C61;
+					};
+				};
+			};
+			buildConfigurationList = 7EDF7770193078DC00BD0C61 /* Build configuration list for PBXProject "SilentPhotoCaptureDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EDF776C193078DC00BD0C61;
+			productRefGroup = 7EDF7776193078DC00BD0C61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EDF7774193078DC00BD0C61 /* SilentPhotoCaptureDemo */,
+				7EDF7795193078DC00BD0C61 /* SilentPhotoCaptureDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EDF7773193078DC00BD0C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E97488B1930C96900AA31A5 /* photoShutterSilence.caf in Resources */,
+				7EDF77AE19307A3700BD0C61 /* photoShutterAntiSound.caf in Resources */,
+				7EDF7791193078DC00BD0C61 /* Images.xcassets in Resources */,
+				7E97488D1930CA7B00AA31A5 /* photoShutterRing.caf in Resources */,
+				7EDF7783193078DC00BD0C61 /* InfoPlist.strings in Resources */,
+				7EDF778C193078DC00BD0C61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDF7794193078DC00BD0C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDF77A2193078DC00BD0C61 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EDF7771193078DC00BD0C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDF7789193078DC00BD0C61 /* MMAppDelegate.m in Sources */,
+				7EDF778F193078DC00BD0C61 /* MMViewController.m in Sources */,
+				7EDF7785193078DC00BD0C61 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDF7792193078DC00BD0C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDF77A4193078DD00BD0C61 /* SilentPhotoCaptureDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EDF779C193078DC00BD0C61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EDF7774193078DC00BD0C61 /* SilentPhotoCaptureDemo */;
+			targetProxy = 7EDF779B193078DC00BD0C61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EDF7781193078DC00BD0C61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EDF7782193078DC00BD0C61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7EDF778A193078DC00BD0C61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EDF778B193078DC00BD0C61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EDF77A0193078DC00BD0C61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EDF77A1193078DC00BD0C61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EDF77A5193078DD00BD0C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7EDF77A6193078DD00BD0C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EDF77A8193078DD00BD0C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SilentPhotoCaptureDemo/SilentPhotoCaptureDemo-Prefix.pch";
+				INFOPLIST_FILE = "SilentPhotoCaptureDemo/SilentPhotoCaptureDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7EDF77A9193078DD00BD0C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SilentPhotoCaptureDemo/SilentPhotoCaptureDemo-Prefix.pch";
+				INFOPLIST_FILE = "SilentPhotoCaptureDemo/SilentPhotoCaptureDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7EDF77AB193078DD00BD0C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SilentPhotoCaptureDemo.app/SilentPhotoCaptureDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SilentPhotoCaptureDemo/SilentPhotoCaptureDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SilentPhotoCaptureDemoTests/SilentPhotoCaptureDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7EDF77AC193078DD00BD0C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SilentPhotoCaptureDemo.app/SilentPhotoCaptureDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SilentPhotoCaptureDemo/SilentPhotoCaptureDemo-Prefix.pch";
+				INFOPLIST_FILE = "SilentPhotoCaptureDemoTests/SilentPhotoCaptureDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EDF7770193078DC00BD0C61 /* Build configuration list for PBXProject "SilentPhotoCaptureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EDF77A5193078DD00BD0C61 /* Debug */,
+				7EDF77A6193078DD00BD0C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EDF77A7193078DD00BD0C61 /* Build configuration list for PBXNativeTarget "SilentPhotoCaptureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EDF77A8193078DD00BD0C61 /* Debug */,
+				7EDF77A9193078DD00BD0C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EDF77AA193078DD00BD0C61 /* Build configuration list for PBXNativeTarget "SilentPhotoCaptureDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EDF77AB193078DD00BD0C61 /* Debug */,
+				7EDF77AC193078DD00BD0C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EDF776D193078DC00BD0C61 /* Project object */;
+}
