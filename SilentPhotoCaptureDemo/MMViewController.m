@@ -63,9 +63,10 @@
 - (void)playAntiSound {
     static SystemSoundID soundID = 0;
     if (soundID == 0) {
-        NSString *path = [[NSBundle mainBundle] pathForResource:@"photoShutterAntiSound" ofType:@"caf"];
-//        NSString *path = [[NSBundle mainBundle] pathForResource:@"photoShutterSilence" ofType:@"caf"];
-//        NSString *path = [[NSBundle mainBundle] pathForResource:@"photoShutterRing" ofType:@"caf"];
+        // Play your sound of choice
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"photoShutterAntiSound" ofType:@"caf"]; // the antisound by k06aless
+//        NSString *path = [[NSBundle mainBundle] pathForResource:@"photoShutterSilence" ofType:@"caf"];   // silence of same length
+//        NSString *path = [[NSBundle mainBundle] pathForResource:@"photoShutterRing" ofType:@"caf"];      // a random ring tone
         NSURL *filePath = [NSURL fileURLWithPath:path isDirectory:NO];
         AudioServicesCreateSystemSoundID((__bridge CFURLRef)filePath, &soundID);
     }
